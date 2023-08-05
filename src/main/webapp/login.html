@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Login</title>
+		<link rel="stylesheet" href="login.css">
+	</head>
+	<body>
+		<div class="loginForm">
+			<h1>Enter your login ceredentials</h1>
+		<form action="loginServlet" method="post">
+			
+			<table class="loginFormContent">
+				<tr>
+					<td>
+						<label>Email</label>
+					</td>
+					<td>
+						<input type="email" name="username">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Password</label>
+					</td>
+					<td>
+						<input type="password" name="password">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="login-btn-row">
+						<input type="submit" value="Log In">
+					</td>
+				</tr>
+			</table>
+		</form>
+		</div>
+	</body>
+</html>
